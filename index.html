@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome 사용 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- jquery 사용 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/mysite.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="shortcut icon" type="image⁄x-icon" href="./images/icon.png">
+    <title>vips1025의 포트폴리오</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#home">Determina<span>tion.</span></a>
+        </div>
+        <ul class="menubar">
+          <li><a href="#home" class="menu-btn" id="homeID">Home</a></li>
+          <li><a href="#about" class="menu-btn" id="homeID">About</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#my-site" class="menu-btn">My Site</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-section">
+          <div class="text-1">Hello! My Name is</div>
+          <div class="text-2">Gildong HONG</div>
+          <div class="text-3">My Skills <span class="typing1"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About</h2>
+        <div class="about-content">
+          <div class="left column">
+            <img src="./images/profile-1.jpg" alt="profile" />
+          </div>
+          <div class="right column">
+            <div class="about-text">Gildong HONG</div>
+            <div class="about-skills">
+              My Skills <span class="typing2"></span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+              praesentium hic dolor nihil nostrum deserunt odit dolorem vitae
+              officia, dignissimos neque amet animi eum iste fuga voluptates,
+              minus ipsa? Necessitatibus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My-Site -->
+    <section class="my-site" id="my-site">
+      <div class="max-width">
+        <h2 class="title">My Site</h2>
+        <div class="my-site-content">
+          <div class="left column">
+            <a href="https://determination.tistory.com/" target="_blank">
+              <div class="site">
+                <div class="site-images">
+                  <img src="./images/blog.png" alt="" />
+                  <div class="site-text">BLOG</div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit consectet facere praesentium esse repellat dolore aut
+                    molestias in similique quibusda
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="center column">
+            <a href="https://github.com/code1218" target="_blank">
+              <div class="site">
+                <div class="site-images">
+                  <img src="./images/github.png" alt="" />
+                  <div class="site-text">Github</div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit consectet facere praesentium esse repellat dolore aut
+                    molestias in similique quibusda
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="right column">
+            <a href="#">
+              <div class="site">
+                <div class="site-images">
+                  <img src="./images/web.jpg" alt="" />
+                  <div class="site-text">Portfolio Site</div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit consectet facere praesentium esse repellat dolore aut
+                    molestias in similique quibusda
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="left column">
+            <div class="contact-text">My information</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              amet, iure mole inventore unde voluptatem reiciendis excepturi ad.
+            </p>
+            <div class="icons">
+              <div class="icons-content">
+                <i class="fa fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="tail">Gildong HONG</div>
+                </div>
+              </div>
+              <div class="icons-content">
+                <i class="fa fa-envelope"></i>
+                <div class="info">
+                  <div class="head">E-mail</div>
+                  <div class="tail">vips1025@gmail.com</div>
+                </div>
+              </div>
+              <div class="icons-content">
+                <i class="fas fa-map-marked-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="tail">부산광역시 부산진구</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right column">
+            <div class="contact-text">Message me!</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="E-mail" />
+                </div>
+              </div>
+              <div class="field subject">
+                <input type="text" placeholder="Subject" />
+              </div>
+              <div class="field content-area">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Content.."
+                  required
+                ></textarea>
+              </div>
+              <div class="button">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <span
+        >Created By <a href="#">Gildong HONG</a> |
+        <i class="fas fa-copyright"></i>2023 All rights reserved</span
+      >
+    </footer>
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
